@@ -3,7 +3,7 @@ This is an outline of what went into building my new Hackintosh. I built my firs
 
 Enter: COVID. I was home and bored and decided that I wanted to build a new computer. So that is what I did. I also decided that I wanted to have a dual boot - so I could game, but also to hackintosh again. And that is how I ended up here.
 
-![Screenshot of About this Mac](https://res.cloudinary.com/dxghtqpao/image/upload/v1628291226/Screen_Shot_2021-08-06_at_7.06.35_PM_fonpoj.png)
+![Screenshot of About this Mac](https://res.cloudinary.com/dxghtqpao/image/upload/v1628291669/Screen_Shot_2021-08-06_at_7.06.35_PM_m3gm2l.png)
 
 ## Specifications 
 
