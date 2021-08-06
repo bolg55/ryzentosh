@@ -46,7 +46,7 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 ## Working
 * **Sleep/Wake**
 * **Restart/Shutdown**
-  * This was a bit tricky, and caused a lot of issues. At first, restart / shutdown would not work correctly and a power cycle was needed to make the computer functional again.
+  * This was a bit tricky, and caused a lot of issues. At first, restart / shutdown would not work correctly and a power cycle was needed to make the computer functional again. Narrowing this down was a lot of trial and error and Googling.
   * The solution was with USB mapping, specifically, disabling the onboard LED USB controller. I did this with the help of [Hackintool](https://ce05a305-2bad-44e3-9149-3538386d84d9.filesusr.com/archives/191c4b_c0fa53593ddb40c6beae7002a211d8b0.zip?dn=Hackintool.zip). I followed the steps outlined in the OpenCore post-install guide to generate a new USBPort kext, excluding the port that was causing issue. This solved the problem. 
 * Ethernet
 * Wifi / Bluetooth
@@ -61,7 +61,7 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 * [Hackintool](https://ce05a305-2bad-44e3-9149-3538386d84d9.filesusr.com/archives/191c4b_c0fa53593ddb40c6beae7002a211d8b0.zip?dn=Hackintool.zip)
 
 ## Building Your Own
-If you want to build your own Hackintosh, the best place to start is with the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/). Aother great resource, if you are choosing to build an AMD-based computer is the [AMD-OSX forum/discord server](https://forum.amd-osx.com/index.php).  
+If you want to build your own Hackintosh, the best place to start is with the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/). Another great resource, if you are choosing to build an AMD-based computer is the [AMD-OSX forum/discord server](https://forum.amd-osx.com/index.php).  
 
 ### This was a frustrating / rewarding / interesting experience, and I am very pleased with the end result. Compared to my 2015 Macbook Pro, this computer performs incredibly well, and the build has been very stable after I ironed out all of the kinks. 
 
