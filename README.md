@@ -18,6 +18,7 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 |OS1 - MacOS |WD Black SN750 NVMe M.2 1TB|
 |OS2 - Windows 10|WD Blue 1TB SSD|
 |Ethernet|Realtek RTL8111H|
+|Wifi/Bluetooth|Intel AX200NGW|
 
 **macOS version:** Big Sur 11.5.1
 
