@@ -36,6 +36,7 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 * [[Kext] VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 * [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 * [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
+* [[Kext] RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
 * [[Kext] AppleMCEReporterDisabler](https://github.com/AMD-OSX/AMD_Vanilla/blob/opencore/Extra/AppleMCEReporterDisabler.kext.zip)
 * [[Kext] RestrictEvents](https://github.com/acidanthera/RestrictEvents)
 * [[Kext] NVMeFix](https://github.com/acidanthera/NVMeFix)
