@@ -54,7 +54,7 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 * Wifi / Bluetooth
 
 ## Not Working
-* Mic > [See Details] (https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)
+* Mic > [[See Details]](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)
   * This isn't really an issue for me as this is a desktop computer and USB mic's work just fine.
 
 ## Tools
