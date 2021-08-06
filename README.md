@@ -3,6 +3,8 @@ This is an outline of what went into building my new Hackintosh. I built my firs
 
 Enter: COVID. I was home and bored and decided that I wanted to build a new computer. So that is what I did. I also decided that I wanted to have a dual boot - so I could game, but also to hackintosh again. And that is how I ended up here.
 
+![Screenshot of About this Mac](https://res.cloudinary.com/dxghtqpao/image/upload/v1628291226/Screen_Shot_2021-08-06_at_7.06.35_PM_fonpoj.png)
+
 ## Specifications 
 
 |Component|Model|
@@ -35,17 +37,27 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 * [[Kext] AppleMCEReporterDisabler](https://github.com/AMD-OSX/AMD_Vanilla/blob/opencore/Extra/AppleMCEReporterDisabler.kext.zip)
 * [[Kext] RestrictEvents](https://github.com/acidanthera/RestrictEvents)
 * [[Kext] NVMeFix](https://github.com/acidanthera/NVMeFix)
+* [[Kext] AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)
+* [[Kext] IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)
 * [[Kext] USBPorts](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html#usb-mapping-the-manual-way)
 
 ## Working
 * **Sleep/Wake**
 * **Restart/Shutdown**
-  * This was a bit tricky, and caused a lot of issues. A first, restart / shutdown would not work correctly and a power cycle was needed to make the computer functional again.
-  * The solution was with USB mapping, specifically, disabling the onboard LED USB controller. I did this with the help of [Hackintool](https://ce05a305-2bad-44e3-9149-3538386d84d9.filesusr.com/archives/191c4b_c0fa53593ddb40c6beae7002a211d8b0.zip?dn=Hackintool.zip). I followed the steps to generate a new USBPort kext, excluding the Port that was causing issue. This solved the problem. 
+  * This was a bit tricky, and caused a lot of issues. At first, restart / shutdown would not work correctly and a power cycle was needed to make the computer functional again.
+  * The solution was with USB mapping, specifically, disabling the onboard LED USB controller. I did this with the help of [Hackintool](https://ce05a305-2bad-44e3-9149-3538386d84d9.filesusr.com/archives/191c4b_c0fa53593ddb40c6beae7002a211d8b0.zip?dn=Hackintool.zip). I followed the steps outlined in the OpenCore post-install guide to generate a new USBPort kext, excluding the port that was causing issue. This solved the problem. 
 * Ethernet
+* Wifi / Bluetooth
 
 ## Not Working
 * Mic > [See Details] (https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd)
   * This isn't really an issue for me as this is a desktop computer and USB mic's work just fine.
-* Wifi / Bluetooth 
-  * I believe there are fixes for this by following the OpenCore Guide (https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth) but I am hardwired in, so not neccessary for this build, for me.
+
+## Tools
+* [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+* [ProperTree](https://github.com/corpnewt/ProperTree)
+* [Hackintool](https://ce05a305-2bad-44e3-9149-3538386d84d9.filesusr.com/archives/191c4b_c0fa53593ddb40c6beae7002a211d8b0.zip?dn=Hackintool.zip)
+
+### This was a frustrating / rewarding / interesting experience, and I am very pleased with the end result. Compared to my 2015 Macbook Pro, this computer performs incredibly well, and the build has been very stable after I ironed out all of the kinks. 
+
+Disclaimer: This is for informational and entertainment purposes only - even using the same hardware and software patches does not guarantee an operational machine, and I am not held responsible should you follow along and brick your machine. 
