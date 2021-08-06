@@ -1,7 +1,9 @@
 # AMD Ryzen Hackintosh ... aka "Ryzentosh"
-This is an outline of what went into building my new Hackintosh. I built my first hackintosh way back in 2011 or 2012, and things were much different back then. I had lucked out that one of my laptops I had used for school was an HP ProBook - perfect for making a Hackbook pro. So I followed the tutorials online at the time, without really knowing what I was doing, but interested all the same. After days of toiling, I finally got it to work. I was PUMPED! That Hackbook lasted me a long time... and then I finally got a real Macbook Pro, so I didn't really have a need to build another one. Follow that up with work-issued Macbooks and I sort of left hackintoshing in the rearview mirror.
+This is an outline of what went into building my new Hackintosh. I built my first hackintosh way back in 2011 or 2012, and things were much different back then. I had lucked out that one of my laptops I had used for school was an HP ProBook - perfect for making a Hackbook pro. 
 
-Enter: COVID. I was home and bored and decided that I wanted to build a new computer. So that is what I did. I also decided that I wanted to have a dual boot - so I could game, but also to hackintosh again. And that is how I ended up here.
+So I followed the tutorials online at the time, without really knowing what I was doing, but interested all the same. After days of toiling, I finally got it to work. I was PUMPED! That Hackbook lasted me a long time... and then I finally got a real Macbook Pro, so I didn't really have a need to build another one. Follow that up with work-issued Macbooks and I sort of left hackintoshing in the rearview mirror...
+
+Enter: COVID. I was home and bored and decided that I wanted to build a new computer. So that is what I did. I also decided that I wanted to have dual boot functionality - so I could game, but also to hackintosh again. And that is how I ended up here.
 
 ![Screenshot of About this Mac](https://res.cloudinary.com/dxghtqpao/image/upload/v1628291669/Screen_Shot_2021-08-06_at_7.06.35_PM_m3gm2l.png)
 
@@ -57,6 +59,9 @@ Enter: COVID. I was home and bored and decided that I wanted to build a new comp
 * [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 * [ProperTree](https://github.com/corpnewt/ProperTree)
 * [Hackintool](https://ce05a305-2bad-44e3-9149-3538386d84d9.filesusr.com/archives/191c4b_c0fa53593ddb40c6beae7002a211d8b0.zip?dn=Hackintool.zip)
+
+## Building Your Own
+If you want to build your own Hackintosh, the best place to start is with the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/). Aother great resource, if you are choosing to build an AMD-based computer is the [AMD-OSX forum/discord server](https://forum.amd-osx.com/index.php).  
 
 ### This was a frustrating / rewarding / interesting experience, and I am very pleased with the end result. Compared to my 2015 Macbook Pro, this computer performs incredibly well, and the build has been very stable after I ironed out all of the kinks. 
 
