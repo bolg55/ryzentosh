@@ -69,4 +69,4 @@ If you want to build your own Hackintosh, the best place to start is with the [O
 
 ### This was a frustrating / rewarding / interesting experience, and I am very pleased with the end result. Compared to my 2015 Macbook Pro, this computer performs incredibly well, and the build has been very stable after I ironed out all of the kinks. 
 
-Disclaimer: This is for informational and entertainment purposes only - even using the same hardware and software patches does not guarantee an operational machine, and I am not held responsible should you follow along and brick your machine. 
+*Disclaimer: This is for informational and entertainment purposes only - even using the same hardware and software patches does not guarantee an operational machine, and I am not held responsible should you follow along and brick your machine.*
